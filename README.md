@@ -1,0 +1,2 @@
+# PHP Type Juggling Bug
+This repository demonstrates a common error in PHP: unexpected behavior due to type juggling when working with arrays containing mixed data types (numbers and strings).  The `calculateSum` function is designed to sum numbers; however, the presence of a string in the input array leads to incorrect results. The solution demonstrates how to mitigate this issue using type checking.
